@@ -28,7 +28,7 @@ body{
 }
 
 .inner-header{
-    background: #3d3c66 url(3.png) no-repeat;
+    background: #3d3c66 url(horo.jpg) no-repeat;
     height: 240px;
     font-family: Uni Sans;
     color: #fff;
@@ -46,10 +46,11 @@ body{
     font-size: 20px;
     margin-left: 5px;
     margin-top: 200px;
+    display: block;
 }
 
 .header_item:hover{
-    background-color: #000;
+    background-color: #123;
     border-radius: 4px;
 }
 .headerlogo{
@@ -58,6 +59,7 @@ body{
 
 .headerButton{
     cursor: pointer;
+    position: relative;
 }
 .logo{
     position: absolute;
@@ -98,15 +100,14 @@ body{
 }
 
 .submenu{
-    height: 40px;
-    width: 120px;
-    background: #000;
+    height: 160px;
+    width: 500px;
+    background: #3d6;
     position: absolute;
     cursor: pointer;
-    display: none;
+    opacity: 0;
 }
 
-.header_item headerButton:hover.submenu{
-    display: block;
+.headerButton:hover .submenu{
+    opacity: 1;
 }
-
