@@ -51,7 +51,7 @@ body{
 
 .header_item:hover{
     background-color: #123;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 .headerlogo{
     font-weight: bold;
@@ -63,8 +63,8 @@ body{
 }
 .logo{
     position: absolute;
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
     background: url(icon.png) no-repeat;
     margin: 15px 0 0 50px;
 }
@@ -100,9 +100,9 @@ body{
 }
 
 .submenu{
-    height: 160px;
-    width: 500px;
-    background: #3d6;
+    height: 480px;
+    width: 1000px;
+    background: #432;
     position: absolute;
     cursor: pointer;
     opacity: 0;
